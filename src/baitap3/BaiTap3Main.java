@@ -16,7 +16,13 @@ public class BaiTap3Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Bai Tap 3");
-    }
+        SinhVienPoly Nhac = new SinhVienIT(8, 7, 9, "Phạm Vương Lam Nhạc", "CNTT");
+        SinhVienPoly Dat = new SinhVienBiz(7, 8, "Thái Thành Đạt", "MKT");
+        SinhVienPoly Long = new SinhVienBiz(9, 8, "Nguyễn Hoàng Long", "QTKD");
+        Nhac.Xuat();
+        Dat.Xuat();
+        Long.Xuat();
+        }
+    
     
 }
